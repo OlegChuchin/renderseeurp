@@ -49,7 +49,7 @@ const Panel = () => {
                 />
             </div> */}
 
-            {/* <div className={s.prop}>
+            <div className={s.prop}>
                 <p>Light Intensity (bulbs)</p>
                 <input
                     type="range"
@@ -73,7 +73,7 @@ const Panel = () => {
                     value={settings.ambient}
                     onChange={changeLight}
                 />
-            </div> */}
+            </div>
             <div className={s.prop}>
                 <p>Color</p>
                 <ul className={s.colorList}>
